@@ -1,5 +1,5 @@
 
-module.exports = Class Shape{
+class Shape{
  constructor(color){
   this.color = color;
  }
@@ -9,5 +9,5 @@ module.exports = Class Shape{
  calculateArea(){
   console.log("Calculating area of your shape")
  }
-
-};
+}
+module.exports = Shape;
