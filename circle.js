@@ -1,4 +1,6 @@
-const Shape = requie('./shape.js');
+const Shape = require('./shape.js');
 class Circle extends Shape{
- super.calculateArea();
+calculateArea(){
+ console.log('hello');
+}
 }
